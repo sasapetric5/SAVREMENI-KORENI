@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
+<urlset 
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml"
   xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
-  <!-- 1. HOMEPAGE & MULTILINGUAL ALTERNATE URLS -->
+  <!-- 1. Main Homepage (Serbian, English & Diaspora Alternate Links) -->
   <url>
     <loc>https://savremenikoreni.com/</loc>
     <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/" />
@@ -46,9 +46,169 @@
     <priority>0.95</priority>
   </url>
 
-  <!-- 2. HIGH-INTENT SEO LANDING PAGES -->
+  <!-- 2. Target High-Intent SEO Landing Pages -->
+  <url>
+    <loc>https://savremenikoreni.com/subare-homolje</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/subare-homolje" />
+    <xhtml:link rel="alternate" hreflang="sr-RS" href="https://savremenikoreni.com/subare-homolje" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/subare-homolje?lang=en" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://savremenikoreni.com/subare-homolje?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://savremenikoreni.com/subare-homolje" />
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <image:image>
+      <image:loc>https://savremenikoreni.com/logo.jpg</image:loc>
+      <image:title>Homoljske i Vlaške Šubare od Prirodnog Krzna</image:title>
+      <image:caption>Autentične zimske kape izrađene po vekovnoj tradiciji majstora istočne Srbije. Prirodna termoizolacija, ručno tkana vezena bordura i izrada po meri glave.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://savremenikoreni.com/nosnje-i-vez</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/nosnje-i-vez" />
+    <xhtml:link rel="alternate" hreflang="sr-RS" href="https://savremenikoreni.com/nosnje-i-vez" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/nosnje-i-vez?lang=en" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://savremenikoreni.com/nosnje-i-vez?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://savremenikoreni.com/nosnje-i-vez" />
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <image:image>
+      <image:loc>https://savremenikoreni.com/logo.jpg</image:loc>
+      <image:title>Narodna Nošnja i Tradicionalni Ručni Vez</image:title>
+      <image:caption>Kompletne narodne nošnje i autorski komadi od prirodnog srpskog platna sa ručno vezenim floralnim i geometrijskim motivima. Izrada za folklorna društva, soliste i svečane prilike.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://savremenikoreni.com/vunene-carape</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/vunene-carape" />
+    <xhtml:link rel="alternate" hreflang="sr-RS" href="https://savremenikoreni.com/vunene-carape" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/vunene-carape?lang=en" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://savremenikoreni.com/vunene-carape?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://savremenikoreni.com/vunene-carape" />
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <image:image>
+      <image:loc>https://savremenikoreni.com/logo.jpg</image:loc>
+      <image:title>Ručno Pletene Vunene Čarape sa Tradicionalnim Vezom</image:title>
+      <image:caption>Vrhunska toplotna izolacija i reljefni cvetni vez. Pletene starinskom tehnikom na pet igala od čiste runske vune bogate prirodnim lanolinom. Savršene za folklor, zimu i zdravlje stopala.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://savremenikoreni.com/etno-pokloni-za-inostranstvo</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/etno-pokloni-za-inostranstvo" />
+    <xhtml:link rel="alternate" hreflang="sr-RS" href="https://savremenikoreni.com/etno-pokloni-za-inostranstvo" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/etno-pokloni-za-inostranstvo?lang=en" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://savremenikoreni.com/etno-pokloni-za-inostranstvo?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://savremenikoreni.com/etno-pokloni-za-inostranstvo" />
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <image:image>
+      <image:loc>https://savremenikoreni.com/logo.jpg</image:loc>
+      <image:title>Autentični Etno Pokloni iz Srbije za Inostranstvo i Dijasporu</image:title>
+      <image:caption>Nosite komadić zavičaja sa sobom. Unikatne ručno rađene torbice, vezeni stolnjaci, šubare, čarape i nakit — upakovani sa stilom i sertifikatom autentičnog ručnog rada.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://savremenikoreni.com/unikatne-makrame-torbe</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/unikatne-makrame-torbe" />
+    <xhtml:link rel="alternate" hreflang="sr-RS" href="https://savremenikoreni.com/unikatne-makrame-torbe" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/unikatne-makrame-torbe?lang=en" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://savremenikoreni.com/unikatne-makrame-torbe?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://savremenikoreni.com/unikatne-makrame-torbe" />
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <image:image>
+      <image:loc>https://savremenikoreni.com/logo.jpg</image:loc>
+      <image:title>Unikatne Makrame Torbe i Heklane Torbice</image:title>
+      <image:caption>Autentične ženske torbe izrađene drevnom veštinom makrame čvorovanja sa ručkama od bukovog drveta i unutrašnjom pamučnom postavom. Spoj prirodne estetike i modernog boho stila.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://savremenikoreni.com/zlatovez-i-srma</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/zlatovez-i-srma" />
+    <xhtml:link rel="alternate" hreflang="sr-RS" href="https://savremenikoreni.com/zlatovez-i-srma" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/zlatovez-i-srma?lang=en" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://savremenikoreni.com/zlatovez-i-srma?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://savremenikoreni.com/zlatovez-i-srma" />
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <image:image>
+      <image:loc>https://savremenikoreni.com/logo.jpg</image:loc>
+      <image:title>Tradicionalni Srpski Zlatovez i Vez Srmom</image:title>
+      <image:caption>Vrhunac narodnog vezenja na plišu i čoji. Raskošni svečani jeleci, slavski detalji i ukrasi izrađeni autentičnom tehnikom polaganja srme pod rukom majstora.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://savremenikoreni.com/heklani-nakit-i-ogrlice</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/heklani-nakit-i-ogrlice" />
+    <xhtml:link rel="alternate" hreflang="sr-RS" href="https://savremenikoreni.com/heklani-nakit-i-ogrlice" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/heklani-nakit-i-ogrlice?lang=en" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://savremenikoreni.com/heklani-nakit-i-ogrlice?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://savremenikoreni.com/heklani-nakit-i-ogrlice" />
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <image:image>
+      <image:loc>https://savremenikoreni.com/logo.jpg</image:loc>
+      <image:title>Unikatni Heklani Nakit i Etno Ogrlice</image:title>
+      <image:caption>Lagani, upečatljivi komadi nakita izrađeni tehnikama finog heklanja i makramea. Prirodni pamuk, bukovo drvo i tradicijski kolorit koji unosi toplinu u svaki moderan izgled.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://savremenikoreni.com/opanci-i-folklorna-obuca</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/opanci-i-folklorna-obuca" />
+    <xhtml:link rel="alternate" hreflang="sr-RS" href="https://savremenikoreni.com/opanci-i-folklorna-obuca" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/opanci-i-folklorna-obuca?lang=en" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://savremenikoreni.com/opanci-i-folklorna-obuca?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://savremenikoreni.com/opanci-i-folklorna-obuca" />
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <image:image>
+      <image:loc>https://savremenikoreni.com/logo.jpg</image:loc>
+      <image:title>Tradicionalni Opanci za Folklor i Nošnju</image:title>
+      <image:caption>Ručno pleteni srpski opanci sa kljunom (šiljkani) izrađeni od prave goveđe kože. Savitljiv i izdržljiv đon prilagođen za scensku igru u KUD-ovima, proslave i etno nošnju.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://savremenikoreni.com/vezene-kosulje-za-svadbe-i-slave</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/vezene-kosulje-za-svadbe-i-slave" />
+    <xhtml:link rel="alternate" hreflang="sr-RS" href="https://savremenikoreni.com/vezene-kosulje-za-svadbe-i-slave" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/vezene-kosulje-za-svadbe-i-slave?lang=en" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://savremenikoreni.com/vezene-kosulje-za-svadbe-i-slave?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://savremenikoreni.com/vezene-kosulje-za-svadbe-i-slave" />
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <image:image>
+      <image:loc>https://savremenikoreni.com/logo.jpg</image:loc>
+      <image:title>Svečane Vezene Košulje za Venčanja i Slave</image:title>
+      <image:caption>Autentične muške i ženske košulje od 100% prirodnog domaćeg platna sa prefinjenim ručnim vezom na ruskoj kragni, grudima i manžetnama. Spoj gospodskog stila i tradicije.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://savremenikoreni.com/homoljski-suveniri-i-josanica</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/homoljski-suveniri-i-josanica" />
+    <xhtml:link rel="alternate" hreflang="sr-RS" href="https://savremenikoreni.com/homoljski-suveniri-i-josanica" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/homoljski-suveniri-i-josanica?lang=en" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://savremenikoreni.com/homoljski-suveniri-i-josanica?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://savremenikoreni.com/homoljski-suveniri-i-josanica" />
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <image:image>
+      <image:loc>https://savremenikoreni.com/logo.jpg</image:loc>
+      <image:title>Autentični Suveniri iz Homolja i Radionice Jošanica</image:title>
+      <image:caption>Jedinstveni darovi koji nose miris netaknute prirode, lekovitog bilja i vekovne tradicije istočne Srbije. Od domaće runske vune do ručno vezenih detalja sa sertifikatom geografskog porekla.</image:caption>
+    </image:image>
+  </url>
 
-  <!-- 3. PRODUCT CATALOG & CATEGORIES -->
+  <!-- 3. Category Filter Pages -->
   <url>
     <loc>https://savremenikoreni.com/kategorija/sve</loc>
     <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/kategorija/sve" />
@@ -113,7 +273,7 @@
     <priority>0.85</priority>
   </url>
 
-  <!-- 4. DYNAMIC PRODUCTS (from productsData) -->
+  <!-- 4. Dynamic Products -->
   <url>
     <loc>https://savremenikoreni.com/?proizvod=sk-subara-01</loc>
     <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/?proizvod=sk-subara-01" />
@@ -297,7 +457,7 @@
     </image:image>
   </url>
 
-  <!-- 5. DYNAMIC BLOG POSTS (from blogPostsData) -->
+  <!-- 5. Educational SEO Blog Articles -->
   <url>
     <loc>https://savremenikoreni.com/blog/vez-kroz-vekove-i-danas-rucni-vez</loc>
     <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/blog/vez-kroz-vekove-i-danas-rucni-vez" />
@@ -677,83 +837,43 @@
     </image:image>
   </url>
 
-  <!-- 6. GALLERY & AUTHENTIC CRAFT PHOTOS -->
+  <!-- 6. Google Image Search Index -->
   <url>
-    <loc>https://savremenikoreni.com/galerija#upl-photo-1000020290</loc>
-    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/galerija#upl-photo-1000020290" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/galerija#upl-photo-1000020290?lang=en" />
+    <loc>https://savremenikoreni.com/#galerija</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/#galerija" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/?lang=en#galerija" />
     <lastmod>2026-09-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.70</priority>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
     <image:image>
       <image:loc>https://savremenikoreni.com/logo.jpg</image:loc>
       <image:title>Autentični rad iz ateljea Savremeni Koreni u Jošanici.</image:title>
-      <image:caption>Unikatna rukotvorina majstora Tanje Petrić, Savremeni Koreni</image:caption>
+      <image:caption>Autentični ručni rad iz radionice Savremeni Koreni u Homolju</image:caption>
     </image:image>
-  </url>
-  <url>
-    <loc>https://savremenikoreni.com/galerija#upl-photo-1000020308</loc>
-    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/galerija#upl-photo-1000020308" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/galerija#upl-photo-1000020308?lang=en" />
-    <lastmod>2026-09-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.70</priority>
     <image:image>
       <image:loc>https://savremenikoreni.com/logo.jpg</image:loc>
       <image:title>Tradicionalno pletenje i vez, radionica Savremeni Koreni.</image:title>
-      <image:caption>Unikatna rukotvorina majstora Tanje Petrić, Savremeni Koreni</image:caption>
+      <image:caption>Autentični ručni rad iz radionice Savremeni Koreni u Homolju</image:caption>
     </image:image>
-  </url>
-  <url>
-    <loc>https://savremenikoreni.com/galerija#upl-photo-1000019845</loc>
-    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/galerija#upl-photo-1000019845" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/galerija#upl-photo-1000019845?lang=en" />
-    <lastmod>2026-09-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.70</priority>
     <image:image>
       <image:loc>https://savremenikoreni.com/logo.jpg</image:loc>
       <image:title>Izrada u radionici Savremeni Koreni u Jošanici.</image:title>
-      <image:caption>Unikatna rukotvorina majstora Tanje Petrić, Savremeni Koreni</image:caption>
+      <image:caption>Autentični ručni rad iz radionice Savremeni Koreni u Homolju</image:caption>
     </image:image>
-  </url>
-  <url>
-    <loc>https://savremenikoreni.com/galerija#upl-photo-1000019846</loc>
-    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/galerija#upl-photo-1000019846" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/galerija#upl-photo-1000019846?lang=en" />
-    <lastmod>2026-09-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.70</priority>
     <image:image>
       <image:loc>https://savremenikoreni.com/logo.jpg</image:loc>
       <image:title>Ručni vez i tradicionalno platno, Savremeni Koreni.</image:title>
-      <image:caption>Unikatna rukotvorina majstora Tanje Petrić, Savremeni Koreni</image:caption>
+      <image:caption>Autentični ručni rad iz radionice Savremeni Koreni u Homolju</image:caption>
     </image:image>
-  </url>
-  <url>
-    <loc>https://savremenikoreni.com/galerija#upl-photo-1000019847</loc>
-    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/galerija#upl-photo-1000019847" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/galerija#upl-photo-1000019847?lang=en" />
-    <lastmod>2026-09-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.70</priority>
     <image:image>
       <image:loc>https://savremenikoreni.com/logo.jpg</image:loc>
       <image:title>Autentični motivi Homolja i tradicionalna izrada.</image:title>
-      <image:caption>Unikatna rukotvorina majstora Tanje Petrić, Savremeni Koreni</image:caption>
+      <image:caption>Autentični ručni rad iz radionice Savremeni Koreni u Homolju</image:caption>
     </image:image>
-  </url>
-  <url>
-    <loc>https://savremenikoreni.com/galerija#upl-photo-1000019983</loc>
-    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/galerija#upl-photo-1000019983" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/galerija#upl-photo-1000019983?lang=en" />
-    <lastmod>2026-09-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.70</priority>
     <image:image>
       <image:loc>https://savremenikoreni.com/logo.jpg</image:loc>
       <image:title>Atelje Savremeni Koreni, Jošanica, Homolje.</image:title>
-      <image:caption>Unikatna rukotvorina majstora Tanje Petrić, Savremeni Koreni</image:caption>
+      <image:caption>Autentični ručni rad iz radionice Savremeni Koreni u Homolju</image:caption>
     </image:image>
   </url>
 </urlset>
