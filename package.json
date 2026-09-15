@@ -7,7 +7,7 @@
     "dev": "tsx server.ts",
     "generate:sitemap": "tsx scripts/generateSitemap.ts",
     "verify:seo": "tsx scripts/verifySeoTags.ts",
-    "build": "vite build && tsx scripts/buildServer.ts",
+    "build": "vite build && if [ \"$CF_PAGES\" = \"1\" ]; then echo \"Skipping server build on Cloudflare Pages\"; else tsx scripts/buildServer.ts; fi",
     "build:client": "vite build",
     "start": "node dist/server.cjs",
     "preview": "vite preview",
@@ -37,7 +37,7 @@
     "autoprefixer": "^10.4.21",
     "esbuild": "^0.25.0",
     "tailwindcss": "^4.1.14",
-    "tsx": "^4.21.0",
+    "tsx": "^4.23.13",
     "typescript": "~5.8.2",
     "vite": "^6.2.3"
   }

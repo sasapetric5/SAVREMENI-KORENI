@@ -166,14 +166,14 @@ async function startServer() {
 
   // Fallback workshop craft images in case a custom image is missing
   const fallbackImages = [
-    path.join(process.cwd(), 'src/assets/images/etno_unikatna_torba_1789105500674.jpg'),
-    path.join(process.cwd(), 'src/assets/images/srpska_subara_moderna_1789021862584.jpg'),
-    path.join(process.cwd(), 'src/assets/images/vunene_carape_vez_1789021876638.jpg'),
-    path.join(process.cwd(), 'src/assets/images/vezena_kosulja_1789021895745.jpg'),
-    path.join(process.cwd(), 'src/assets/images/heklani_nakit_1789021909183.jpg'),
-    path.join(process.cwd(), 'src/assets/images/makrame_predja_repromaterijal_1789032495554.jpg'),
-    path.join(process.cwd(), 'src/assets/images/vlaska_bela_subara_1789032431671.jpg'),
-    path.join(process.cwd(), 'src/assets/images/vezene_carape_folklor_1789032450227.jpg')
+    path.join(process.cwd(), 'public/images/etno_unikatna_torba_1789105500674.jpg'),
+    path.join(process.cwd(), 'public/images/srpska_subara_moderna_1789021862584.jpg'),
+    path.join(process.cwd(), 'public/images/vunene_carape_vez_1789021876638.jpg'),
+    path.join(process.cwd(), 'public/images/vezena_kosulja_1789021895745.jpg'),
+    path.join(process.cwd(), 'public/images/heklani_nakit_1789021909183.jpg'),
+    path.join(process.cwd(), 'public/images/makrame_predja_repromaterijal_1789032495554.jpg'),
+    path.join(process.cwd(), 'public/images/vlaska_bela_subara_1789032431671.jpg'),
+    path.join(process.cwd(), 'public/images/vezene_carape_folklor_1789032450227.jpg')
   ];
 
   // Statically serve custom products from both possible locations with caching
