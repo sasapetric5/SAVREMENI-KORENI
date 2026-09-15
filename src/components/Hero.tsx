@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'motion/react';
 import { ArrowRight, Sparkles, ShieldCheck, Heart, Scissors, PackageCheck, PhoneCall, Camera } from 'lucide-react';
 import { companyDetails } from '../data/companyData';
-import heroImg from '../assets/images/savremeni_hero_banner_1789021835867.jpg';
+const heroImg = '/images/savremeni_hero_banner_1789021835867.jpg';
 import { useLogo } from '../context/LogoContext';
 import { useLanguage } from '../context/LanguageContext';
 

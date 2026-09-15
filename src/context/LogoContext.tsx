@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
-import defaultLogo from '../assets/images/luxury_brand_emblem_1789026455362.jpg';
+const defaultLogo = '/images/luxury_brand_emblem_1789026455362.jpg';
 
 interface LogoContextType {
   logoUrl: string;
