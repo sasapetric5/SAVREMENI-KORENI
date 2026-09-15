@@ -1,12 +1,12 @@
 import { BlogPost } from '../types';
-const carapeImg = '/src/assets/images/vunene_carape_vez_1789021876638.jpg';
-const subaraImg = '/src/assets/images/srpska_subara_moderna_1789021862584.jpg';
-const kosuljaImg = '/src/assets/images/vezena_kosulja_1789021895745.jpg';
-const heroImg = '/src/assets/images/savremeni_hero_banner_1789021835867.jpg';
-const opanciImg = '/src/assets/images/opanci_folklor_koza_1789407239776.jpg';
-const jelekImg = '/src/assets/images/jelek_zlatovez_srma_1789407252546.jpg';
-const tkanicaImg = '/src/assets/images/tkanica_pojas_etno_1789407263798.jpg';
-const srmaZlatovezImg = '/src/assets/images/srpski_zlatovez_srma_1789105485118.jpg';
+const carapeImg = '/images/vunene_carape_vez_1789021876638.jpg';
+const subaraImg = '/images/srpska_subara_moderna_1789021862584.jpg';
+const kosuljaImg = '/images/vezena_kosulja_1789021895745.jpg';
+const heroImg = '/images/savremeni_hero_banner_1789021835867.jpg';
+const opanciImg = '/images/opanci_folklor_koza_1789407239776.jpg';
+const jelekImg = '/images/jelek_zlatovez_srma_1789407252546.jpg';
+const tkanicaImg = '/images/tkanica_pojas_etno_1789407263798.jpg';
+const srmaZlatovezImg = '/images/srpski_zlatovez_srma_1789105485118.jpg';
 const runskaVunaImg = '/custom_products/1789326189203_1000020308.webp';
 
 export const costumesAndHeritageArticles: BlogPost[] = [

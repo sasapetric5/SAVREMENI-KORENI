@@ -1,9 +1,9 @@
 import { BlogPost } from '../types';
 
-const vlaskaSubaraImg = '/src/assets/images/vlaska_bela_subara_1789032431671.jpg';
-const vlaskaIzradaImg = '/src/assets/images/vlaska_subara_izrada_1789032512168.jpg';
-const vezeneCarapeImg = '/src/assets/images/vezene_carape_folklor_1789032450227.jpg';
-const homoljskaNosnjaImg = '/src/assets/images/homoljska_narodna_nosnja_1789032467664.jpg';
+const vlaskaSubaraImg = '/images/vlaska_bela_subara_1789032431671.jpg';
+const vlaskaIzradaImg = '/images/vlaska_subara_izrada_1789032512168.jpg';
+const vezeneCarapeImg = '/images/vezene_carape_folklor_1789032450227.jpg';
+const homoljskaNosnjaImg = '/images/homoljska_narodna_nosnja_1789032467664.jpg';
 
 export const homoljeAndTraditionArticles: BlogPost[] = [
   // 1. VLAŠKA ŠUBARA - BELA ŠUBARA

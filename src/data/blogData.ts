@@ -5,17 +5,17 @@ import { homoljeAndTraditionArticles } from './seoArticlesHomoljeAndTradition';
 import { costumesAndHeritageArticles } from './seoArticlesCostumesAndHeritage';
 import { craftsAndGiftsArticles } from './seoArticlesCraftsAndGifts';
 
-const torbicaImg = '/src/assets/images/etno_torbica_vez_1789021849429.jpg';
-const subaraImg = '/src/assets/images/srpska_subara_moderna_1789021862584.jpg';
-const carapeImg = '/src/assets/images/vunene_carape_vez_1789021876638.jpg';
-const kosuljaImg = '/src/assets/images/vezena_kosulja_1789021895745.jpg';
-const nakitImg = '/src/assets/images/heklani_nakit_1789021909183.jpg';
-const heroImg = '/src/assets/images/savremeni_hero_banner_1789021835867.jpg';
-const nosnjaImg = '/src/assets/images/homoljska_narodna_nosnja_1789032467664.jpg';
-const zlatovezImg = '/src/assets/images/srpski_zlatovez_srma_1789105485118.jpg';
-const etnoUnikatnaTorbaImg = '/src/assets/images/etno_unikatna_torba_1789105500674.jpg';
-const muskiAksesoariImg = '/src/assets/images/muski_etno_aksesoari_1789105515453.jpg';
-const vezeniLanNadstolnjakImg = '/src/assets/images/vezeni_nadstolnjak_lan_1789407278498.jpg';
+const torbicaImg = '/images/etno_torbica_vez_1789021849429.jpg';
+const subaraImg = '/images/srpska_subara_moderna_1789021862584.jpg';
+const carapeImg = '/images/vunene_carape_vez_1789021876638.jpg';
+const kosuljaImg = '/images/vezena_kosulja_1789021895745.jpg';
+const nakitImg = '/images/heklani_nakit_1789021909183.jpg';
+const heroImg = '/images/savremeni_hero_banner_1789021835867.jpg';
+const nosnjaImg = '/images/homoljska_narodna_nosnja_1789032467664.jpg';
+const zlatovezImg = '/images/srpski_zlatovez_srma_1789105485118.jpg';
+const etnoUnikatnaTorbaImg = '/images/etno_unikatna_torba_1789105500674.jpg';
+const muskiAksesoariImg = '/images/muski_etno_aksesoari_1789105515453.jpg';
+const vezeniLanNadstolnjakImg = '/images/vezeni_nadstolnjak_lan_1789407278498.jpg';
 const autenticniVezDetaljImg = '/custom_products/1789327918894_1000019847.webp';
 
 const initialBlogPosts: BlogPost[] = [

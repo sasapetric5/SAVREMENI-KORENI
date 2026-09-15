@@ -1,10 +1,10 @@
 import { BlogPost } from '../types';
-const etnoUnikatnaTorbaImg = '/src/assets/images/etno_unikatna_torba_1789105500674.jpg';
-const muskiAksesoariImg = '/src/assets/images/muski_etno_aksesoari_1789105515453.jpg';
-const torbicaImg = '/src/assets/images/etno_torbica_vez_1789021849429.jpg';
-const kosuljaImg = '/src/assets/images/vezena_kosulja_1789021895745.jpg';
-const predjaImg = '/src/assets/images/makrame_predja_repromaterijal_1789032495554.jpg';
-const heklanaKlacImg = '/src/assets/images/heklana_krem_klac_1789106956492.jpg';
+const etnoUnikatnaTorbaImg = '/images/etno_unikatna_torba_1789105500674.jpg';
+const muskiAksesoariImg = '/images/muski_etno_aksesoari_1789105515453.jpg';
+const torbicaImg = '/images/etno_torbica_vez_1789021849429.jpg';
+const kosuljaImg = '/images/vezena_kosulja_1789021895745.jpg';
+const predjaImg = '/images/makrame_predja_repromaterijal_1789032495554.jpg';
+const heklanaKlacImg = '/images/heklana_krem_klac_1789106956492.jpg';
 const vezeniLanImg = '/custom_products/1789327918894_1000019847.webp';
 
 export const bagsAndSewingArticles: BlogPost[] = [

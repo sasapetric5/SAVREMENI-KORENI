@@ -1,13 +1,13 @@
 import { BlogPost } from '../types';
-const torbicaImg = '/src/assets/images/etno_torbica_vez_1789021849429.jpg';
-const subaraImg = '/src/assets/images/srpska_subara_moderna_1789021862584.jpg';
-const carapeImg = '/src/assets/images/vunene_carape_vez_1789021876638.jpg';
-const nakitImg = '/src/assets/images/heklani_nakit_1789021909183.jpg';
-const heroImg = '/src/assets/images/savremeni_hero_banner_1789021835867.jpg';
-const heklaniSetImg = '/src/assets/images/heklani_trobojni_set_1789106901909.jpg';
-const debelaVunaImg = '/src/assets/images/heklana_kraljevsko_plava_1789106930062.jpg';
+const torbicaImg = '/images/etno_torbica_vez_1789021849429.jpg';
+const subaraImg = '/images/srpska_subara_moderna_1789021862584.jpg';
+const carapeImg = '/images/vunene_carape_vez_1789021876638.jpg';
+const nakitImg = '/images/heklani_nakit_1789021909183.jpg';
+const heroImg = '/images/savremeni_hero_banner_1789021835867.jpg';
+const heklaniSetImg = '/images/heklani_trobojni_set_1789106901909.jpg';
+const debelaVunaImg = '/images/heklana_kraljevsko_plava_1789106930062.jpg';
 const cegerRadionicaImg = '/custom_products/1789326187913_1000020290.webp';
-const homoljskiSuveniriImg = '/src/assets/images/homoljski_suveniri_dar_1789407290576.jpg';
+const homoljskiSuveniriImg = '/images/homoljski_suveniri_dar_1789407290576.jpg';
 const homoljeTradicijaImg = '/custom_products/1789327918037_1000019845.webp';
 
 export const craftsAndGiftsArticles: BlogPost[] = [

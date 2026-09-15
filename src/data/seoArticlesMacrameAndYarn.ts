@@ -1,7 +1,7 @@
 import { BlogPost } from '../types';
-const makramePredjaImg = '/src/assets/images/makrame_predja_repromaterijal_1789032495554.jpg';
-const makrameZidnaImg = '/src/assets/images/etno_unikatna_torba_1789105500674.jpg';
-const heklanaCrvenaImg = '/src/assets/images/heklana_crvena_skoljka_1789106887946.jpg';
+const makramePredjaImg = '/images/makrame_predja_repromaterijal_1789032495554.jpg';
+const makrameZidnaImg = '/images/etno_unikatna_torba_1789105500674.jpg';
+const heklanaCrvenaImg = '/images/heklana_crvena_skoljka_1789106887946.jpg';
 
 export const macrameAndYarnArticles: BlogPost[] = [
   // 5. Modern Makrame i Ručno Čvorovanje: Tehnike, Hearts Macrame, Dreamcatcher i Macraweaving
