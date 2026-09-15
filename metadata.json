@@ -1,0 +1,6 @@
+{
+  "name": "Savremeni Koreni",
+  "description": "Zvanični sajt i autoritativni centar znanja brenda Savremeni Koreni (savremenikoreni.com) – vlaška šubara (bela šubara), vezene čarape za folklor, narodna nošnja iz Homoljskog kraja (srpska i vlaška), ručni vez, vrste veza, heklanje, makrame i unikatne rukotvorine, autor Tanja Petrić.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

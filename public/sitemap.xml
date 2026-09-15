@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- 1. HOMEPAGE & MULTILINGUAL ALTERNATE URLS -->
+  <url>
+    <loc>https://savremenikoreni.com/</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/" />
+    <xhtml:link rel="alternate" hreflang="sr-RS" href="https://savremenikoreni.com/" />
+    <xhtml:link rel="alternate" hreflang="sr-BA" href="https://savremenikoreni.com/" />
+    <xhtml:link rel="alternate" hreflang="sr-ME" href="https://savremenikoreni.com/" />
+    <xhtml:link rel="alternate" hreflang="sr-DE" href="https://savremenikoreni.com/" />
+    <xhtml:link rel="alternate" hreflang="sr-AT" href="https://savremenikoreni.com/" />
+    <xhtml:link rel="alternate" hreflang="sr-CH" href="https://savremenikoreni.com/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://savremenikoreni.com/?lang=en" />
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://savremenikoreni.com/?lang=en" />
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://savremenikoreni.com/?lang=en" />
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://savremenikoreni.com/?lang=en" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/?lang=en" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://savremenikoreni.com/?lang=en" />
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://savremenikoreni.com/?lang=en" />
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://savremenikoreni.com/?lang=en" />
+    <xhtml:link rel="alternate" hreflang="en-AU" href="https://savremenikoreni.com/?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://savremenikoreni.com/" />
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://savremenikoreni.com/logo.jpg</image:loc>
+      <image:title>Savremeni Koreni - Tradicionalni Zanati i Ručni Rad</image:title>
+      <image:caption>Radionica Savremeni Koreni Jošanica, Žagubica, Homolje</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://savremenikoreni.com/?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/" />
+    <xhtml:link rel="alternate" hreflang="sr-RS" href="https://savremenikoreni.com/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/?lang=en" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://savremenikoreni.com/?lang=en" />
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://savremenikoreni.com/?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://savremenikoreni.com/" />
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <!-- 2. HIGH-INTENT SEO LANDING PAGES -->
+
+  <!-- 3. PRODUCT CATALOG & CATEGORIES -->
+  <url>
+    <loc>https://savremenikoreni.com/kategorija/sve</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/kategorija/sve" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/kategorija/sve?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://savremenikoreni.com/kategorija/sve" />
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://savremenikoreni.com/kategorija/torbice</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/kategorija/torbice" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/kategorija/torbice?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://savremenikoreni.com/kategorija/torbice" />
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://savremenikoreni.com/kategorija/subare</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/kategorija/subare" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/kategorija/subare?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://savremenikoreni.com/kategorija/subare" />
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://savremenikoreni.com/kategorija/carape</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/kategorija/carape" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/kategorija/carape?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://savremenikoreni.com/kategorija/carape" />
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://savremenikoreni.com/kategorija/kosulje</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/kategorija/kosulje" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/kategorija/kosulje?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://savremenikoreni.com/kategorija/kosulje" />
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://savremenikoreni.com/kategorija/nakit</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/kategorija/nakit" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/kategorija/nakit?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://savremenikoreni.com/kategorija/nakit" />
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://savremenikoreni.com/kategorija/dom-pokloni</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/kategorija/dom-pokloni" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/kategorija/dom-pokloni?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://savremenikoreni.com/kategorija/dom-pokloni" />
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- 4. DYNAMIC PRODUCTS (from productsData) -->
+  <url>
+    <loc>https://savremenikoreni.com/?proizvod=sk-subara-01</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/?proizvod=sk-subara-01" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/?proizvod=sk-subara-01&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://savremenikoreni.com/?proizvod=sk-subara-01" />
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+    <image:image>
+      <image:loc>https://savremenikoreni.com/logo.jpg</image:loc>
+      <image:title>Tradicionalna Šubara sa Vezenom Bordurnom Trakom</image:title>
+      <image:caption>Topla šubara od mekog prirodnog krzna u spoju sa ručno tkanom i vezenom etno vrpcom, inspirisana homoljskim krajem.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://savremenikoreni.com/?proizvod=sk-carape-01</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/?proizvod=sk-carape-01" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/?proizvod=sk-carape-01&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://savremenikoreni.com/?proizvod=sk-carape-01" />
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+    <image:image>
+      <image:loc>https://savremenikoreni.com/logo.jpg</image:loc>
+      <image:title>Ručno Pletene Vunene Čarape sa Floralnim Vezom</image:title>
+      <image:caption>Autentične čarape pletene na pet igala od 100% domaće prirodne vune, ukrašene gustim reljefnim vezom.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://savremenikoreni.com/?proizvod=sk-kosulja-01</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/?proizvod=sk-kosulja-01" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/?proizvod=sk-kosulja-01&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://savremenikoreni.com/?proizvod=sk-kosulja-01" />
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+    <image:image>
+      <image:loc>https://savremenikoreni.com/logo.jpg</image:loc>
+      <image:title>Košulja od Srpskog Platna sa Tradicionalnim Vezom</image:title>
+      <image:caption>Savremeni kroj od prirodnog srpskog platna sa prefinjenim vezom na kragni, grudima i manžetnama.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://savremenikoreni.com/?proizvod=sk-nakit-01</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/?proizvod=sk-nakit-01" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/?proizvod=sk-nakit-01&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://savremenikoreni.com/?proizvod=sk-nakit-01" />
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+    <image:image>
+      <image:loc>https://savremenikoreni.com/logo.jpg</image:loc>
+      <image:title>Heklani i Makrame Etno Nakit Set (Ogrlica + Minđuše)</image:title>
+      <image:caption>Lagani unikatni nakit izrađen tehnikama heklanja i makrame čvorova sa drvenim perlicama i etno detaljima.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://savremenikoreni.com/?proizvod=sk-subara-02</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/?proizvod=sk-subara-02" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/?proizvod=sk-subara-02&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://savremenikoreni.com/?proizvod=sk-subara-02" />
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+    <image:image>
+      <image:loc>https://savremenikoreni.com/logo.jpg</image:loc>
+      <image:title>Zimska Ženska Šubara &quot;Beli Homoljski Sneg&quot;</image:title>
+      <image:caption>Prefinjena bela šubara od mekog krzna sa diskretnom tkanom bordurom i satenskim postavom.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://savremenikoreni.com/?proizvod=sk-carape-02</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/?proizvod=sk-carape-02" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/?proizvod=sk-carape-02&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://savremenikoreni.com/?proizvod=sk-carape-02" />
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+    <image:image>
+      <image:loc>https://savremenikoreni.com/logo.jpg</image:loc>
+      <image:title>Zimske Pletene Nazuvice &quot;Šumadijski Vez&quot;</image:title>
+      <image:caption>Kratke tople vunene nazuvice za dom, ukrašene gustim vezom ružica i sitnih listića.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://savremenikoreni.com/?proizvod=sk-dom-01</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/?proizvod=sk-dom-01" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/?proizvod=sk-dom-01&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://savremenikoreni.com/?proizvod=sk-dom-01" />
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+    <image:image>
+      <image:loc>https://savremenikoreni.com/logo.jpg</image:loc>
+      <image:title>Ručno Vezeni Nadstolnjak &quot;Homoljska Tradicija&quot;</image:title>
+      <image:caption>Ukrasni nadstolnjak od čistog domaćeg lana i platna sa bogatim vezom na krajevima i heklanom čipkom.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://savremenikoreni.com/?proizvod=sk-torba-01</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/?proizvod=sk-torba-01" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/?proizvod=sk-torba-01&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://savremenikoreni.com/?proizvod=sk-torba-01" />
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+    <image:image>
+      <image:loc>https://savremenikoreni.com/logo.jpg</image:loc>
+      <image:title>Unikatna Makrame Torbica sa Drvenim Ručkama</image:title>
+      <image:caption>Ručno čvorovana torba od 100% prirodnog pamučnog kanapa sa glatkim ručkama od bukovog drveta i postavljenom unutrašnjošću.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://savremenikoreni.com/?proizvod=sk-nosnja-02</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/?proizvod=sk-nosnja-02" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/?proizvod=sk-nosnja-02&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://savremenikoreni.com/?proizvod=sk-nosnja-02" />
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+    <image:image>
+      <image:loc>https://savremenikoreni.com/logo.jpg</image:loc>
+      <image:title>Svečani Jelek sa Raskošnim Zlatovezom i Srmom</image:title>
+      <image:caption>Tradicionalni jelek od crnog pliša i čoje, bogato optočen zlatnom i srebrnom srmom, bućmom i gajtanima.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://savremenikoreni.com/?proizvod=sk-nakit-02</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/?proizvod=sk-nakit-02" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/?proizvod=sk-nakit-02&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://savremenikoreni.com/?proizvod=sk-nakit-02" />
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+    <image:image>
+      <image:loc>https://savremenikoreni.com/logo.jpg</image:loc>
+      <image:title>Etno Heklana Ogrlica &quot;Homoljska Ruža&quot;</image:title>
+      <image:caption>Raskošna višeslojna ogrlica heklana finim pamučnim koncem, ukrašena drvenim perlicama i tradicionalnim koloritom.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://savremenikoreni.com/?proizvod=sk-opanci-01</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/?proizvod=sk-opanci-01" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/?proizvod=sk-opanci-01&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://savremenikoreni.com/?proizvod=sk-opanci-01" />
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+    <image:image>
+      <image:loc>https://savremenikoreni.com/logo.jpg</image:loc>
+      <image:title>Tradicionalni Kožni Opanci sa Kljunom za Folklor</image:title>
+      <image:caption>Ručno pleteni opanci od prirodne goveđe kože sa prepoznatljivim srpskim kljunom i savitljivim đonom za igru.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://savremenikoreni.com/?proizvod=sk-kosulja-02</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/?proizvod=sk-kosulja-02" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/?proizvod=sk-kosulja-02&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://savremenikoreni.com/?proizvod=sk-kosulja-02" />
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+    <image:image>
+      <image:loc>https://savremenikoreni.com/logo.jpg</image:loc>
+      <image:title>Svečana Muška Košulja za Venčanja i Slave sa Ruskom Kragnom</image:title>
+      <image:caption>Ekskluzivna košulja od finog domaćeg pamučnog platna sa bogatim vezom na grudima, ruskoj kragni i manžetnama.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://savremenikoreni.com/?proizvod=sk-poklon-02</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/?proizvod=sk-poklon-02" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/?proizvod=sk-poklon-02&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://savremenikoreni.com/?proizvod=sk-poklon-02" />
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+    <image:image>
+      <image:loc>https://savremenikoreni.com/logo.jpg</image:loc>
+      <image:title>Etno Suvenir Set &quot;Duša Homolja&quot; Jošanica</image:title>
+      <image:caption>Poklon set koji sadrži ručno vezeni podmetač/nadstolnjak, par mini vezenih etno detalja i sertifikat o poreklu iz Jošanice.</image:caption>
+    </image:image>
+  </url>
+
+  <!-- 5. DYNAMIC BLOG POSTS (from blogPostsData) -->
+  <url>
+    <loc>https://savremenikoreni.com/blog/vez-kroz-vekove-i-danas-rucni-vez</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/blog/vez-kroz-vekove-i-danas-rucni-vez" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/blog/vez-kroz-vekove-i-danas-rucni-vez?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://savremenikoreni.com/blog/vez-kroz-vekove-i-danas-rucni-vez" />
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://savremenikoreni.com/logo.jpg</image:loc>
+      <image:title>VEZ Kroz Vekove i Danas: Sve o Ručnom Vezu, Istoriji, Materijalima i Savremenom Stilu</image:title>
+      <image:caption>U eri industrijske hiperprodukcije, ručni vez doživljava svetski preporod. Odgovorili smo na sva ključna pitanja o materijalima, đerđefu, bodovima i integraciji tradicionalnog veza u savremeni gradski stil.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://savremenikoreni.com/blog/vrste-veza-srpska-tradicija-tehnike-i-bodovi</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/blog/vrste-veza-srpska-tradicija-tehnike-i-bodovi" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/blog/vrste-veza-srpska-tradicija-tehnike-i-bodovi?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://savremenikoreni.com/blog/vrste-veza-srpska-tradicija-tehnike-i-bodovi" />
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://savremenikoreni.com/logo.jpg</image:loc>
+      <image:title>VRSTE VEZA: Velika Enciklopedija Tradicionalnih Bodova, Kosovskog Veza, Pokrstice i Zlatoveza</image:title>
+      <image:caption>Da li znate razliku između pokrstice, lančanca, punog reljefnog veza i kosovskog veza? Upoznajte bogatstvo bodova i simboliku srpskih ornamenata kroz detaljan prikaz tehnika i primene.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://savremenikoreni.com/blog/srpska-narodna-nosnja-kompletan-vodic-delovi-istorija</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/blog/srpska-narodna-nosnja-kompletan-vodic-delovi-istorija" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/blog/srpska-narodna-nosnja-kompletan-vodic-delovi-istorija?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://savremenikoreni.com/blog/srpska-narodna-nosnja-kompletan-vodic-delovi-istorija" />
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://savremenikoreni.com/logo.jpg</image:loc>
+      <image:title>Srpska Narodna Nošnja: Veliki Vodič Kroz Delove, Istoriju, Zubun, Jelek i Autentičnost</image:title>
+      <image:caption>Od zubuna i vezenog jeleka do košulje od srpskog platna, tkanice i opanaka – saznajte kako je nastajala srpska narodna nošnja, šta označava svaki njen element i kako je nositi danas.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://savremenikoreni.com/blog/heklanje-vodic-kroz-heklani-nakit-tehnike-i-cipku</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/blog/heklanje-vodic-kroz-heklani-nakit-tehnike-i-cipku" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/blog/heklanje-vodic-kroz-heklani-nakit-tehnike-i-cipku?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://savremenikoreni.com/blog/heklanje-vodic-kroz-heklani-nakit-tehnike-i-cipku" />
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://savremenikoreni.com/logo.jpg</image:loc>
+      <image:title>Heklanje od A do Š: Sve o Heklanom Nakitu, Heklicama, Koncima i Uštirkavanju</image:title>
+      <image:caption>Kako se heklanje razlikuje od pletenja? Koja heklica je idealna za fini rad, kako nastaju heklane minđuše i ogrlice i kako pravilno uštirkati rad? Saznajte sve tajne ovog zanata.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://savremenikoreni.com/blog/rucno-cvorovanje-makrame-torbe-kanap-i-drvo</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/blog/rucno-cvorovanje-makrame-torbe-kanap-i-drvo" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/blog/rucno-cvorovanje-makrame-torbe-kanap-i-drvo?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://savremenikoreni.com/blog/rucno-cvorovanje-makrame-torbe-kanap-i-drvo" />
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://savremenikoreni.com/logo.jpg</image:loc>
+      <image:title>Ručno Čvorovanje (Makrame): Kompletan Vodič Kroz Čvorove, Kanap i Izradu Unikatnih Torbi</image:title>
+      <image:caption>Zanima vas šta je ručno čvorovanje, koji su osnovni makrame čvorovi i kako nastaje torba sa drvenim ručkama? Pročitajte naš detaljan vodič kroz materijale, nosivost i održavanje.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://savremenikoreni.com/blog/vunene-carape-pletenje-na-pet-igala-lekovitost-vune</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/blog/vunene-carape-pletenje-na-pet-igala-lekovitost-vune" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/blog/vunene-carape-pletenje-na-pet-igala-lekovitost-vune?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://savremenikoreni.com/blog/vunene-carape-pletenje-na-pet-igala-lekovitost-vune" />
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://savremenikoreni.com/logo.jpg</image:loc>
+      <image:title>Pletenje na Pet Igala i Lekovita Domaća Vuna: Vodič Kroz Vunene Čarape i Nazuvice</image:title>
+      <image:caption>Zašto su naše bake uvek plele čarape na tačno pet igala? Otkrijte lekovite tajne domaće neprerađene vune, kako nastaje bešavna peta i kako se pravilno održavaju pleteni komadi.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://savremenikoreni.com/blog/srpska-subara-prirodno-krzno-homolje-vodic</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/blog/srpska-subara-prirodno-krzno-homolje-vodic" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/blog/srpska-subara-prirodno-krzno-homolje-vodic?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://savremenikoreni.com/blog/srpska-subara-prirodno-krzno-homolje-vodic" />
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://savremenikoreni.com/logo.jpg</image:loc>
+      <image:title>Tradicionalna Šubara: Sve o Prirodnom Krznu, Veličinama, Održavanju i Homoljskom Zanatu</image:title>
+      <image:caption>Koja je razlika između šubare od jagnjećeg krzna i industrijskih kapa? Kako odrediti savršenu veličinu, zašto je vezena traka zaštitni znak i kako održavati krzno decenijama.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://savremenikoreni.com/blog/opanci-za-folklor-srpski-opanci-izrada-i-vrste</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/blog/opanci-za-folklor-srpski-opanci-izrada-i-vrste" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/blog/opanci-za-folklor-srpski-opanci-izrada-i-vrste?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://savremenikoreni.com/blog/opanci-za-folklor-srpski-opanci-izrada-i-vrste" />
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://savremenikoreni.com/logo.jpg</image:loc>
+      <image:title>Opanci za Folklor i Srpski Opanci: Sve o Vrstama, Izradi od Prirodne Kože, Oputi i Održavanju</image:title>
+      <image:caption>Opanci nisu samo muzejski eksponat već živa obuća koja svakodnevno izdržava dinamične skokove na scenama KUD-ova širom sveta. Saznajte kako prepoznati pravu goveđu oputu i sačuvati kožu od pucanja.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://savremenikoreni.com/blog/jelek-za-folklor-narodni-srpski-jelek-zlatovez-kroj</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/blog/jelek-za-folklor-narodni-srpski-jelek-zlatovez-kroj" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/blog/jelek-za-folklor-narodni-srpski-jelek-zlatovez-kroj?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://savremenikoreni.com/blog/jelek-za-folklor-narodni-srpski-jelek-zlatovez-kroj" />
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://savremenikoreni.com/logo.jpg</image:loc>
+      <image:title>Jelek za Folklor i Tradicionalni Srpski Jelek: Zlatovez, Pliš, Vrste Prsluka i Krojevi Kroz Regije</image:title>
+      <image:caption>Jelek je kruna narodne nošnje – prsluk na kome se sretala umetnost veza, status porodice i regionalna pripadnost. Otkrijte tajne izrade šumadijskog, vlaškog i kosovskog jeleka.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://savremenikoreni.com/blog/tkanice-tkani-pojasevi-narodna-nosnja-razboj</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/blog/tkanice-tkani-pojasevi-narodna-nosnja-razboj" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/blog/tkanice-tkani-pojasevi-narodna-nosnja-razboj?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://savremenikoreni.com/blog/tkanice-tkani-pojasevi-narodna-nosnja-razboj" />
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://savremenikoreni.com/logo.jpg</image:loc>
+      <image:title>Tkanice i Tkani Pojasevi za Narodnu Nošnju: Tehnika Tkanja na Razboju, Šare, Dimenzije i Pravilno Vezivanje</image:title>
+      <image:caption>Tkanica nije samo držač suknje i čakšira, već magijska zaštita stomaka i kičme i estetski most koji povezuje gornji i donji deo narodne nošnje. Saznajte kako nastaje na drvenom razboju.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://savremenikoreni.com/blog/zlatovez-tehnika-vezenja-srma-plis-svila-istorija</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/blog/zlatovez-tehnika-vezenja-srma-plis-svila-istorija" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/blog/zlatovez-tehnika-vezenja-srma-plis-svila-istorija?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://savremenikoreni.com/blog/zlatovez-tehnika-vezenja-srma-plis-svila-istorija" />
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://savremenikoreni.com/logo.jpg</image:loc>
+      <image:title>Zlatovez Kroz Istoriju i Zanat: Carska Tehnika Vezenja Zlatnom i Srebrnom Srmom na Plišu i Čoji</image:title>
+      <image:caption>Zlatovez je vrhunac tekstilne umetnosti gde se zlato pretvara u nit. Otkrijte kako majstori kroz srmu i podlaganje postižu trodimenzionalni reljef koji sija na svetlosti vekovima.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://savremenikoreni.com/blog/prirodna-runska-vuna-za-pletenje-lekovitost-lanolin</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/blog/prirodna-runska-vuna-za-pletenje-lekovitost-lanolin" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/blog/prirodna-runska-vuna-za-pletenje-lekovitost-lanolin?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://savremenikoreni.com/blog/prirodna-runska-vuna-za-pletenje-lekovitost-lanolin" />
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://savremenikoreni.com/logo.jpg</image:loc>
+      <image:title>Prirodna Runska Vuna za Pletenje: Lekovita Svojstva Lanolina, Debljine Pređe, Predenje i Održavanje</image:title>
+      <image:caption>U svetu punom plastičnog akrila, prirodna runska vuna sa Homolja predstavlja lekoviti eliksir prirode. Otkrijte zašto prirodna vuna greje zimi a hladi leti i kako prepoznati 100% čisto vlakno.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://savremenikoreni.com/blog/heklanje-za-pocetnike-seme-osnovni-bodovi-tehnika</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/blog/heklanje-za-pocetnike-seme-osnovni-bodovi-tehnika" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/blog/heklanje-za-pocetnike-seme-osnovni-bodovi-tehnika?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://savremenikoreni.com/blog/heklanje-za-pocetnike-seme-osnovni-bodovi-tehnika" />
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://savremenikoreni.com/logo.jpg</image:loc>
+      <image:title>Heklanje za Početnike i Tumačenje Šema: Osnovni Bodovi, Lančić, Niski i Visoki Stubić sa Praktičnim Projektima</image:title>
+      <image:caption>Heklanje je jedna od najlepših i najumirujućih veština na svetu. Saznajte sve o odabiru debljine heklice, pravilnom držanju pređe i savladavanju osnovnih bodova koji otvaraju vrata beskrajne kreativnosti.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://savremenikoreni.com/blog/pletenje-bez-igala-rukama-prstima-chunky-debela-vuna</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/blog/pletenje-bez-igala-rukama-prstima-chunky-debela-vuna" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/blog/pletenje-bez-igala-rukama-prstima-chunky-debela-vuna?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://savremenikoreni.com/blog/pletenje-bez-igala-rukama-prstima-chunky-debela-vuna" />
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://savremenikoreni.com/logo.jpg</image:loc>
+      <image:title>Pletenje Bez Igala (Pletenje Prstima i Rukama): Tehnika Izrade Debelih Ćebadi i Šalova od Chunky Vune</image:title>
+      <image:caption>Pletenje rukama i prstima je svetski hit u uređenju enterijera i brzoj modi. Naučite kako bez ijedne igle, koristeći samo sopstvene ruke i debelu runska vunu, možete stvoriti najmekše ćebe za vaš dom.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://savremenikoreni.com/blog/ceger-torbe-sivenje-kroj-platno-vez-eko-moda</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/blog/ceger-torbe-sivenje-kroj-platno-vez-eko-moda" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/blog/ceger-torbe-sivenje-kroj-platno-vez-eko-moda?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://savremenikoreni.com/blog/ceger-torbe-sivenje-kroj-platno-vez-eko-moda" />
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://savremenikoreni.com/logo.jpg</image:loc>
+      <image:title>Kako Sašiti Platnenu Ceger Torbu sa Vezom: Kroj, Ojačane Ručke, Unutrašnji Džep i Ekološka Moda</image:title>
+      <image:caption>Zamenite plastične kese unikatnom platnenom ceger torbom koju ste sami skrojili ili poručili sa ručnim vezom. Naučite kako se šiju ručke koje nose 10 kilograma i kako torba dobija čvrsto dno.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://savremenikoreni.com/blog/etno-pokloni-srbija-autenticni-suveniri-rucni-rad-tradicija</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/blog/etno-pokloni-srbija-autenticni-suveniri-rucni-rad-tradicija" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/blog/etno-pokloni-srbija-autenticni-suveniri-rucni-rad-tradicija?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://savremenikoreni.com/blog/etno-pokloni-srbija-autenticni-suveniri-rucni-rad-tradicija" />
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://savremenikoreni.com/logo.jpg</image:loc>
+      <image:title>Autentični Etno Pokloni i Suveniri iz Srbije: Šta Pokloniti Strancima, za Svadbe, Slave i Poslovne Partnere</image:title>
+      <image:caption>Zaboravite plastične magnete i fabrički kič. Kada nekome želite da poklonite pravo srce Srbije, birajte ručni rad koji miriše na tradiciju, vunu i čistu prirodu. Evo ideja za sve prilike.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://savremenikoreni.com/blog/homoljski-med-lekovito-bilje-tradicija-zanati-priroda-josanica</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/blog/homoljski-med-lekovito-bilje-tradicija-zanati-priroda-josanica" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/blog/homoljski-med-lekovito-bilje-tradicija-zanati-priroda-josanica?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://savremenikoreni.com/blog/homoljski-med-lekovito-bilje-tradicija-zanati-priroda-josanica" />
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://savremenikoreni.com/logo.jpg</image:loc>
+      <image:title>Homoljski Med, Lekovito Bilje i Tradicija: Netaknuta Priroda Jošanice Kao Večita Inspiracija za Stare Zanate</image:title>
+      <image:caption>Homolje je jedna od poslednjih ekoloških oaza Evrope. Otkrijte kako lekovito bilje sa planinskih livada hrani pčele, kako se koristi za prirodno bojenje vune i zašto se u Jošanici vreme meri lepotom stvaranja.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://savremenikoreni.com/blog/zenske-torbice-i-unikatne-torbe-autentican-rucni-rad-vs-brendovi</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/blog/zenske-torbice-i-unikatne-torbe-autentican-rucni-rad-vs-brendovi" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/blog/zenske-torbice-i-unikatne-torbe-autentican-rucni-rad-vs-brendovi?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://savremenikoreni.com/blog/zenske-torbice-i-unikatne-torbe-autentican-rucni-rad-vs-brendovi" />
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://savremenikoreni.com/logo.jpg</image:loc>
+      <image:title>Ženske Torbice i Unikatne Torbe: Zašto Autentičan Ručni Rad Nadmašuje Industrijske Brendove</image:title>
+      <image:caption>U potrazi za savršenom ženskom torbicom, kupci se sve češće pitaju: vredi li plaćati hiljade dinara za sintetičke brendove ili je mudrije uložiti u unikatnu ručno rađenu torbu sa tradicijom i dušom? Donosimo odgovore na sve dileme.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://savremenikoreni.com/blog/muske-torbice-i-poslovne-torbe-vodic-kroz-stil-i-funkcionalnost</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/blog/muske-torbice-i-poslovne-torbe-vodic-kroz-stil-i-funkcionalnost" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/blog/muske-torbice-i-poslovne-torbe-vodic-kroz-stil-i-funkcionalnost?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://savremenikoreni.com/blog/muske-torbice-i-poslovne-torbe-vodic-kroz-stil-i-funkcionalnost" />
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://savremenikoreni.com/logo.jpg</image:loc>
+      <image:title>Muške Torbice i Poslovne Torbe: Vodič Kroz Stil, Kožu, Platno i Funkcionalnost</image:title>
+      <image:caption>Muške torbice više nisu modni tabu, već obavezan aksesoar savremenog muškarca. Otkrijte kako odabrati model od prave kože ili ojačanog platna koji spaja eleganciju, organizaciju i dugovečnost.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://savremenikoreni.com/blog/vezenje-na-tekstilu-i-rucni-rad-kompletan-vodic</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/blog/vezenje-na-tekstilu-i-rucni-rad-kompletan-vodic" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/blog/vezenje-na-tekstilu-i-rucni-rad-kompletan-vodic?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://savremenikoreni.com/blog/vezenje-na-tekstilu-i-rucni-rad-kompletan-vodic" />
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://savremenikoreni.com/logo.jpg</image:loc>
+      <image:title>Vezenje i Ručni Rad: Vodič Kroz Vezenje na Tekstilu i Zaboravljenu Umetnost</image:title>
+      <image:caption>Vezenje nije samo zanat iz prošlosti – to je moćan oblik kreativne meditacije i najplemenitiji način personalizacije odeće. Naučite sve o tehnikama vezenja na tekstilu, pripremi materijala i vrednosti ručnog rada.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://savremenikoreni.com/blog/sve-za-vezenje-i-sivenje-platno-konac-igle-pribor-vodic</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/blog/sve-za-vezenje-i-sivenje-platno-konac-igle-pribor-vodic" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/blog/sve-za-vezenje-i-sivenje-platno-konac-igle-pribor-vodic?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://savremenikoreni.com/blog/sve-za-vezenje-i-sivenje-platno-konac-igle-pribor-vodic" />
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://savremenikoreni.com/logo.jpg</image:loc>
+      <image:title>Sve za Vezenje i Šivenje: Platno za Vez, Konac za Vez, Igle i Pribor</image:title>
+      <image:caption>Da bi vaš vez ili sašiveni komad trajao decenijama, kvalitet materijala je presudan. Donosimo detaljan pregled platna za vez, vrsta konaca, numeracije igala i saveta za odabir početnog pribora.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://savremenikoreni.com/blog/modern-makrame-i-rucno-cvorovanje-tehnike-hearts-dreamcatcher-macraweaving</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/blog/modern-makrame-i-rucno-cvorovanje-tehnike-hearts-dreamcatcher-macraweaving" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/blog/modern-makrame-i-rucno-cvorovanje-tehnike-hearts-dreamcatcher-macraweaving?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://savremenikoreni.com/blog/modern-makrame-i-rucno-cvorovanje-tehnike-hearts-dreamcatcher-macraweaving" />
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://savremenikoreni.com/logo.jpg</image:loc>
+      <image:title>Modern Makrame i Ručno Čvorovanje: Tehnike, Hearts Macrame, Dreamcatcher i Macraweaving</image:title>
+      <image:caption>Makrame više nije relikt sedamdesetih, već vodeći globalni trend u dekoraciji enterijera i modnih dodataka. Otkrijte kako da savladate modern makrame, napravite unikatni dreamcatcher i kreirate magiju sopstvenim rukama.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://savremenikoreni.com/blog/makrame-konac-craftcord-kanap-snur-twisted-vodic-kroz-debljine</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/blog/makrame-konac-craftcord-kanap-snur-twisted-vodic-kroz-debljine" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/blog/makrame-konac-craftcord-kanap-snur-twisted-vodic-kroz-debljine?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://savremenikoreni.com/blog/makrame-konac-craftcord-kanap-snur-twisted-vodic-kroz-debljine" />
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://savremenikoreni.com/logo.jpg</image:loc>
+      <image:title>Makrame Konac, Craftcord i Kanap: Sve o Debljinama (3mm, 5mm), Snur Kanapima i Twisted Pređi</image:title>
+      <image:caption>Izbor makrame konca direktno određuje izgled i čvrstinu vašeg projekta. Naučite kako razlikovati craftcord, snur i twisted kanap, kako odabrati idealnu debljinu za torbe ili zidne radove i kako tačno izračunati potrebnu dužinu.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://savremenikoreni.com/blog/pamucne-trake-za-heklanje-t-shirt-predja-torbe-korpice-vodic</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/blog/pamucne-trake-za-heklanje-t-shirt-predja-torbe-korpice-vodic" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/blog/pamucne-trake-za-heklanje-t-shirt-predja-torbe-korpice-vodic?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://savremenikoreni.com/blog/pamucne-trake-za-heklanje-t-shirt-predja-torbe-korpice-vodic" />
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://savremenikoreni.com/logo.jpg</image:loc>
+      <image:title>Pamučne Trake za Heklanje (T-Shirt Pređa): Kako Heklati Čvrste Torbe, Korpice i Birati Heklice</image:title>
+      <image:caption>Pamučne trake za heklanje napravile su revoluciju u izradi čvrstih torbica, modernih korpi za odlaganje i dekorativnih tepiha. Otkrijte tajne majstora za besprekorne, uspravne stranice koje ne padaju.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://savremenikoreni.com/blog/vlaska-subara-bela-subara-izrada-heklanje-homolje</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/blog/vlaska-subara-bela-subara-izrada-heklanje-homolje" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/blog/vlaska-subara-bela-subara-izrada-heklanje-homolje?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://savremenikoreni.com/blog/vlaska-subara-bela-subara-izrada-heklanje-homolje" />
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://savremenikoreni.com/logo.jpg</image:loc>
+      <image:title>Vlaška Šubara (Bela Šubara): Sve o Izradi, Heklanoj Mrežastoj Osnovi, Runskoj Vuni i Vlaškoj Tradiciji Homolja</image:title>
+      <image:caption>Bela vlaška šubara je najprepoznatljiviji krunski simbol muške narodne nošnje Homolja i istočne Srbije. Otkrijte autentičnu tehniku heklanja i čvorovanja prirodne runske vune na mrežastu osnovu, kao i pravila nošenja i nege.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://savremenikoreni.com/blog/vezene-carape-za-folklor-vunene-cvetni-vez-pet-igala</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/blog/vezene-carape-za-folklor-vunene-cvetni-vez-pet-igala" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/blog/vezene-carape-za-folklor-vunene-cvetni-vez-pet-igala?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://savremenikoreni.com/blog/vezene-carape-za-folklor-vunene-cvetni-vez-pet-igala" />
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://savremenikoreni.com/logo.jpg</image:loc>
+      <image:title>Vezene Čarape za Folklor: Pletenje na 5 Igala, Cvetni Vez na Crnoj Vuni i Izdržljivost u Opancima</image:title>
+      <image:caption>Vezene vunene čarape su temelj svakog folklornog koraka. Saznajte kako majstori spajaju precizno pletenje na pet igala sa raskošnim floralnim vezom na crnoj podlozi, kako se postiže maksimalna udobnost u kožnim opancima i kako čarape pravilno održavati.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://savremenikoreni.com/blog/narodna-nosnja-homoljski-kraj-srpska-vlaska-tradicija-vodic</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/blog/narodna-nosnja-homoljski-kraj-srpska-vlaska-tradicija-vodic" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/blog/narodna-nosnja-homoljski-kraj-srpska-vlaska-tradicija-vodic?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://savremenikoreni.com/blog/narodna-nosnja-homoljski-kraj-srpska-vlaska-tradicija-vodic" />
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://savremenikoreni.com/logo.jpg</image:loc>
+      <image:title>Narodna Nošnja iz Homoljskog Kraja: Vodič Kroz Srpsku i Vlašku Tradiciju, Delove Nošnje i Vezene Ornamente</image:title>
+      <image:caption>Homoljski kraj u istočnoj Srbiji krije jedan od najfascinantnijih spojeva srpske i vlaške narodne nošnje. Saznajte sve o elementima muške i ženske nošnje, tajnama arhaičnog veza, nošenju tkanica i istorijskom značaju očuvanja ovog blaga u ateljeu Savremeni Koreni.</image:caption>
+    </image:image>
+  </url>
+
+  <!-- 6. GALLERY & AUTHENTIC CRAFT PHOTOS -->
+  <url>
+    <loc>https://savremenikoreni.com/galerija#upl-photo-1000020290</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/galerija#upl-photo-1000020290" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/galerija#upl-photo-1000020290?lang=en" />
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+    <image:image>
+      <image:loc>https://savremenikoreni.com/logo.jpg</image:loc>
+      <image:title>Autentični rad iz ateljea Savremeni Koreni u Jošanici.</image:title>
+      <image:caption>Unikatna rukotvorina majstora Tanje Petrić, Savremeni Koreni</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://savremenikoreni.com/galerija#upl-photo-1000020308</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/galerija#upl-photo-1000020308" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/galerija#upl-photo-1000020308?lang=en" />
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+    <image:image>
+      <image:loc>https://savremenikoreni.com/logo.jpg</image:loc>
+      <image:title>Tradicionalno pletenje i vez, radionica Savremeni Koreni.</image:title>
+      <image:caption>Unikatna rukotvorina majstora Tanje Petrić, Savremeni Koreni</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://savremenikoreni.com/galerija#upl-photo-1000019845</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/galerija#upl-photo-1000019845" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/galerija#upl-photo-1000019845?lang=en" />
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+    <image:image>
+      <image:loc>https://savremenikoreni.com/logo.jpg</image:loc>
+      <image:title>Izrada u radionici Savremeni Koreni u Jošanici.</image:title>
+      <image:caption>Unikatna rukotvorina majstora Tanje Petrić, Savremeni Koreni</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://savremenikoreni.com/galerija#upl-photo-1000019846</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/galerija#upl-photo-1000019846" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/galerija#upl-photo-1000019846?lang=en" />
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+    <image:image>
+      <image:loc>https://savremenikoreni.com/logo.jpg</image:loc>
+      <image:title>Ručni vez i tradicionalno platno, Savremeni Koreni.</image:title>
+      <image:caption>Unikatna rukotvorina majstora Tanje Petrić, Savremeni Koreni</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://savremenikoreni.com/galerija#upl-photo-1000019847</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/galerija#upl-photo-1000019847" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/galerija#upl-photo-1000019847?lang=en" />
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+    <image:image>
+      <image:loc>https://savremenikoreni.com/logo.jpg</image:loc>
+      <image:title>Autentični motivi Homolja i tradicionalna izrada.</image:title>
+      <image:caption>Unikatna rukotvorina majstora Tanje Petrić, Savremeni Koreni</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://savremenikoreni.com/galerija#upl-photo-1000019983</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://savremenikoreni.com/galerija#upl-photo-1000019983" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://savremenikoreni.com/galerija#upl-photo-1000019983?lang=en" />
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+    <image:image>
+      <image:loc>https://savremenikoreni.com/logo.jpg</image:loc>
+      <image:title>Atelje Savremeni Koreni, Jošanica, Homolje.</image:title>
+      <image:caption>Unikatna rukotvorina majstora Tanje Petrić, Savremeni Koreni</image:caption>
+    </image:image>
+  </url>
+</urlset>

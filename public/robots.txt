@@ -1,0 +1,40 @@
+# Robots.txt for Savremeni Koreni (https://savremenikoreni.com)
+# Traditional Serbian & Vlach Heritage Crafts & Folk Art - Jošanica, Homolje
+
+User-agent: *
+Allow: /
+Allow: /assets/
+Allow: /images/
+Allow: /custom_products/
+Allow: /sitemap.xml
+Allow: /products-feed.xml
+Allow: /google-merchant-feed.xml
+Allow: /logo.jpg
+
+# AI & Specialized Search Engine Crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Pinterestbot
+Allow: /
+
+# Sitemap Declarations
+Sitemap: https://savremenikoreni.com/sitemap.xml
+
+# Host Specification
+Host: https://savremenikoreni.com
