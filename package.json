@@ -7,7 +7,7 @@
     "dev": "tsx server.ts",
     "generate:sitemap": "tsx scripts/generateSitemap.ts",
     "verify:seo": "tsx scripts/verifySeoTags.ts",
-    "build": "tsx scripts/generateSitemap.ts && vite build && tsx scripts/buildServer.ts",
+    "build": "vite build",
     "start": "node dist/server.cjs",
     "preview": "vite preview",
     "clean": "rm -rf dist server.js",
