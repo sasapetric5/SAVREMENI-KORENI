@@ -1,16 +1,36 @@
 import { Product } from '../types';
 import { openAppDB } from './db';
 import { triggerSitemapUpdate } from './sitemapNotification';
+import { db } from '../lib/firebase';
+import { collection, getDocs, doc, setDoc, deleteDoc } from 'firebase/firestore';
 
 const STORE_NAME = 'custom_products';
 const LOCAL_STORAGE_KEY = 'savremeni_koreni_custom_products_v1';
 
+let isSynced = false;
+
 export async function loadCustomProductsFromStorage(): Promise<Product[]> {
+  try {
+    const productsRef = collection(db, 'custom_products');
+    const snapshot = await getDocs(productsRef);
+    if (!snapshot.empty) {
+      const firestoreProducts: Product[] = [];
+      snapshot.forEach(doc => {
+        firestoreProducts.push(doc.data() as Product);
+      });
+      isSynced = true;
+      return firestoreProducts;
+    }
+  } catch (err) {
+    console.error('Failed to load products from Firestore:', err);
+  }
+
+  // Fallback to local storage (and migrate to Firestore if this is the first load)
   let localProducts: Product[] = [];
   try {
-    const db = await openAppDB();
+    const appDb = await openAppDB();
     localProducts = await new Promise<Product[]>((resolve) => {
-      const transaction = db.transaction(STORE_NAME, 'readonly');
+      const transaction = appDb.transaction(STORE_NAME, 'readonly');
       const store = transaction.objectStore(STORE_NAME);
       const request = store.getAll();
 
@@ -41,31 +61,26 @@ export async function loadCustomProductsFromStorage(): Promise<Product[]> {
     }
   }
 
-  // Also check backend server if available
-  try {
-    const res = await fetch('/api/products/custom');
-    if (res.ok) {
-      const serverProducts = await res.json();
-      if (Array.isArray(serverProducts) && serverProducts.length > 0) {
-        // Merge without duplicates
-        const map = new Map<string, Product>();
-        serverProducts.forEach((p: Product) => map.set(p.id, p));
-        localProducts.forEach((p) => map.set(p.id, p));
-        return Array.from(map.values());
-      }
+  if (localProducts.length > 0 && !isSynced) {
+    // Migrate local products to Firestore
+    try {
+      await Promise.all(localProducts.map(p => setDoc(doc(db, 'custom_products', p.id), p)));
+      isSynced = true;
+    } catch (err) {
+      console.error('Failed to migrate local products to Firestore:', err);
     }
-  } catch {
-    // server might be offline or client SPA fallback
   }
 
   return localProducts;
 }
 
 export async function saveCustomProductsToStorage(products: Product[]): Promise<void> {
+  // We'll rely on saveCustomProduct and deleteCustomProduct to sync individual changes to Firestore.
+  // This is used to replace everything, so we sync all to local DB, and in Firestore we might need to batch, but for now let's just write to local IDB as backup.
   try {
-    const db = await openAppDB();
+    const appDb = await openAppDB();
     await new Promise<void>((resolve, reject) => {
-      const transaction = db.transaction(STORE_NAME, 'readwrite');
+      const transaction = appDb.transaction(STORE_NAME, 'readwrite');
       const store = transaction.objectStore(STORE_NAME);
       const clearReq = store.clear();
 
@@ -120,6 +135,13 @@ export async function getCustomProducts(): Promise<Product[]> {
 }
 
 export async function saveCustomProduct(product: Product): Promise<void> {
+  // Save to Firestore
+  try {
+    await setDoc(doc(db, 'custom_products', product.id), product);
+  } catch (err) {
+    console.error('Failed to save to Firestore:', err);
+  }
+
   const current = await loadCustomProductsFromStorage();
   const existingIndex = current.findIndex(p => p.id === product.id);
   let updated: Product[];
@@ -133,8 +155,16 @@ export async function saveCustomProduct(product: Product): Promise<void> {
 }
 
 export async function deleteCustomProduct(productId: string): Promise<void> {
+  // Delete from Firestore
+  try {
+    await deleteDoc(doc(db, 'custom_products', productId));
+  } catch (err) {
+    console.error('Failed to delete from Firestore:', err);
+  }
+
   const current = await loadCustomProductsFromStorage();
   const filtered = current.filter(p => p.id !== productId);
   await saveCustomProductsToStorage(filtered);
 }
+
 

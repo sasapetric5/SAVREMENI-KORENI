@@ -1,0 +1,62 @@
+{
+  "entities": {
+    "Product": {
+      "title": "Product",
+      "description": "A catalog product",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "nameEn": { "type": "string" },
+        "category": { "type": "string" },
+        "priceRsd": { "type": "number" },
+        "priceEur": { "type": "number" },
+        "description": { "type": "string" },
+        "descriptionEn": { "type": "string" },
+        "longDescription": { "type": "string" },
+        "longDescriptionEn": { "type": "string" },
+        "craftTechniques": { "type": "array" },
+        "craftTechniquesEn": { "type": "array" },
+        "materials": { "type": "array" },
+        "materialsEn": { "type": "array" },
+        "dimensions": { "type": "string" },
+        "image": { "type": "string", "maxLength": 10485760 },
+        "images": { "type": "array" },
+        "inStock": { "type": "boolean" },
+        "leadTimeDays": { "type": "number" },
+        "featured": { "type": "boolean" },
+        "badge": { "type": "string" },
+        "badgeEn": { "type": "string" }
+      },
+      "required": ["id", "name", "category", "priceRsd", "description", "image"]
+    },
+    "GalleryPhoto": {
+      "title": "GalleryPhoto",
+      "description": "User uploaded photos",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "titleEn": { "type": "string" },
+        "category": { "type": "string" },
+        "categoryEn": { "type": "string" },
+        "imageUrl": { "type": "string", "maxLength": 10485760 },
+        "caption": { "type": "string" },
+        "captionEn": { "type": "string" },
+        "isCustomUploaded": { "type": "boolean" },
+        "dateAdded": { "type": "string" }
+      },
+      "required": ["id", "title", "category", "imageUrl"]
+    }
+  },
+  "firestore": {
+    "custom_products": {
+      "schema": { "$ref": "#/entities/Product" },
+      "description": "Custom products created by admin"
+    },
+    "gallery_photos": {
+      "schema": { "$ref": "#/entities/GalleryPhoto" },
+      "description": "User gallery photos"
+    }
+  }
+}
