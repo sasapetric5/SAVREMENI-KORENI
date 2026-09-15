@@ -2,12 +2,21 @@ import { Product } from '../types';
 import { openAppDB } from './db';
 import { triggerSitemapUpdate } from './sitemapNotification';
 import { db } from '../lib/firebase';
-import { collection, getDocs, doc, setDoc, deleteDoc } from 'firebase/firestore';
+import { collection, getDocs, doc, setDoc, deleteDoc, writeBatch } from 'firebase/firestore';
 
 const STORE_NAME = 'custom_products';
 const LOCAL_STORAGE_KEY = 'savremeni_koreni_custom_products_v1';
 
 let isSynced = false;
+
+// Helper to strip undefined values for Firestore
+const sanitize = (obj: any) => {
+  const cleaned: any = {};
+  Object.entries(obj).forEach(([k, v]) => {
+    if (v !== undefined) cleaned[k] = v;
+  });
+  return cleaned;
+};
 
 export async function loadCustomProductsFromStorage(): Promise<Product[]> {
   try {
@@ -62,9 +71,17 @@ export async function loadCustomProductsFromStorage(): Promise<Product[]> {
   }
 
   if (localProducts.length > 0 && !isSynced) {
-    // Migrate local products to Firestore
+    // Migrate local products to Firestore in batches
     try {
-      await Promise.all(localProducts.map(p => setDoc(doc(db, 'custom_products', p.id), p)));
+      const CHUNK_SIZE = 200;
+      for (let i = 0; i < localProducts.length; i += CHUNK_SIZE) {
+        const chunk = localProducts.slice(i, i + CHUNK_SIZE);
+        const batch = writeBatch(db);
+        chunk.forEach(p => {
+          batch.set(doc(db, 'custom_products', p.id), sanitize(p));
+        });
+        await batch.commit();
+      }
       isSynced = true;
     } catch (err) {
       console.error('Failed to migrate local products to Firestore:', err);
@@ -137,7 +154,7 @@ export async function getCustomProducts(): Promise<Product[]> {
 export async function saveCustomProduct(product: Product): Promise<void> {
   // Save to Firestore
   try {
-    await setDoc(doc(db, 'custom_products', product.id), product);
+    await setDoc(doc(db, 'custom_products', product.id), sanitize(product));
   } catch (err) {
     console.error('Failed to save to Firestore:', err);
   }
@@ -166,5 +183,6 @@ export async function deleteCustomProduct(productId: string): Promise<void> {
   const filtered = current.filter(p => p.id !== productId);
   await saveCustomProductsToStorage(filtered);
 }
+
 
 

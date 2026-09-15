@@ -1,12 +1,21 @@
 import { GalleryPhoto } from '../types';
 import { openAppDB } from './db';
 import { db } from '../lib/firebase';
-import { collection, getDocs, doc, setDoc } from 'firebase/firestore';
+import { collection, getDocs, doc, setDoc, writeBatch } from 'firebase/firestore';
 
 const STORE_NAME = 'gallery_photos';
 const STORAGE_KEY = 'savremeni_koreni_user_photos_v1';
 
 let isSynced = false;
+
+// Helper to strip undefined values for Firestore
+const sanitize = (obj: any) => {
+  const cleaned: any = {};
+  Object.entries(obj).forEach(([k, v]) => {
+    if (v !== undefined) cleaned[k] = v;
+  });
+  return cleaned;
+};
 
 /**
  * Loads all stored photos from IndexedDB, with graceful migration from localStorage.
@@ -90,9 +99,17 @@ export async function loadPhotosFromStorage(): Promise<GalleryPhoto[] | null> {
   }
 
   if (localPhotos && localPhotos.length > 0 && !isSynced) {
-    // Sync to Firestore
+    // Sync to Firestore in batches
     try {
-      await Promise.all(localPhotos.map(p => setDoc(doc(db, 'gallery_photos', p.id), p)));
+      const CHUNK_SIZE = 200;
+      for (let i = 0; i < localPhotos.length; i += CHUNK_SIZE) {
+        const chunk = localPhotos.slice(i, i + CHUNK_SIZE);
+        const batch = writeBatch(db);
+        chunk.forEach(p => {
+          batch.set(doc(db, 'gallery_photos', p.id), sanitize(p));
+        });
+        await batch.commit();
+      }
       isSynced = true;
     } catch (err) {
       console.error('Failed to migrate local photos to Firestore:', err);
@@ -108,8 +125,15 @@ export async function loadPhotosFromStorage(): Promise<GalleryPhoto[] | null> {
 export async function savePhotosToStorage(photos: GalleryPhoto[]): Promise<void> {
   // Save all photos to Firestore
   try {
-    // This could be optimized to only write changes, but for now we write all
-    await Promise.all(photos.map(p => setDoc(doc(db, 'gallery_photos', p.id), p)));
+    const CHUNK_SIZE = 200;
+    for (let i = 0; i < photos.length; i += CHUNK_SIZE) {
+      const chunk = photos.slice(i, i + CHUNK_SIZE);
+      const batch = writeBatch(db);
+      chunk.forEach(p => {
+        batch.set(doc(db, 'gallery_photos', p.id), sanitize(p));
+      });
+      await batch.commit();
+    }
   } catch (err) {
     console.error('Failed to save to Firestore:', err);
   }
